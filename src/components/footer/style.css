@@ -1,0 +1,88 @@
+footer {
+    background-color: #383E42;
+    margin-top: 80px;
+  }
+  footer .footerall {
+    padding: 20px 0px;
+    display: flex;
+  }
+  footer .footerall .footer-left ul {
+    list-style: none;
+  }
+  footer .footerall .footer-left ul li {
+    padding: 5px 0px;
+  }
+  footer .footerall .footer-left ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .footerall .footer-left ul li a span {
+    font-size: 12px;    font-weight: 600;
+    padding: 5px 2px;
+    color: #fafafa;
+  }
+  footer .footerall .footer-left ul li img {
+    width: 25px;
+    padding: 0px;
+  }
+  footer .footerall .footer-left ul li div .footerlogo {
+    width: 165px;
+    height: 50px;
+  }
+  footer .footerall .footer-left ul li div span {
+    font-size: 12px;   
+    color: #fafafa;
+  }
+  footer .footerall #footerlogoo {
+    width: 165px;
+    height: 50px;
+  }
+  footer .footerall .footer-right {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  footer .footerall .footer-right .footer-box {
+    padding: 0px 20px;
+  }
+  footer .footerall .footer-right .footer-box h2 {
+    font-size: 14px;
+    color: #fafafa;
+    font-weight: 500;
+    line-height: 1.2;
+
+  }
+  footer .footerall .footer-right .footer-box ul li {
+    padding: 4px 0px;
+    list-style: none;
+  }
+  footer .footerall .footer-right .footer-box ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 12px;   
+    line-height: 24px;
+  }
+  footer .footerall .footer-right .footer-box ul li a:hover {
+    text-decoration: underline;
+  }
+  footer .footer-bottom {
+    padding-bottom: 50px;
+    border-top: 1px solid #fafafa;
+  }
+  footer .footer-bottom hr {
+    color: white;
+  }
+  footer .footer-bottom .fbb {
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer-bottom .fbb h2 {
+    font-size: 16px;
+    color: #fafafa;
+    font-weight: 300;
+  }
+  footer .footer-bottom .fbb .f-bottom-icons i {
+    padding: 0px 3px;
+  }

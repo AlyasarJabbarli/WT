@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import './App.css'
+import Home from "./pages/home/Home";
+import ProductDetail from "./pages/productDetail/ProductDetail";
+import Footer from "./components/footer/Footer";
+import Bucket from "./pages/bucket/Bucket";
+import SignIn from "./pages/sign/SignIn";
+import Products from "./pages/products/Product";
+import User from "./pages/user/User";
+import Purchase from "./pages/purchase/Purchase";
+import Wishlist from "./pages/wishlist/Wishlist";
+
+
 
 function App() {
+  window.addEventListener('load' , () => {
+    localStorage.removeItem('token')
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/bucket" element={<Bucket />}/>
+          <Route path="/productDetail/:id" element={<ProductDetail />}/>
+          <Route path="/sign" element={<SignIn />}/>
+          <Route path="/products/:id" element={<Products/>}/>
+          <Route path="/user" element={<User/>}/>
+          <Route path="/purchase" element={<Purchase/>}/>
+          <Route path="/wishlist" element={<Wishlist/>}/>
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
+    
   );
 }
 

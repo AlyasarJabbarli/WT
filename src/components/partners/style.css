@@ -1,0 +1,23 @@
+.partners{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    border: 0.4px solid #dadada;
+    border-radius: 4px
+}
+.partnerDiv{
+    height: 90px;
+    width: 160px;
+    padding: 16px;
+}
+.partnerDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;;
+}
+#partnerSection{
+    margin-top: 50px;
+}

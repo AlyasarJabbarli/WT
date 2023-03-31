@@ -1,0 +1,20 @@
+.left{
+    height: inherit;
+    position: relative;
+    width: fit-content;
+
+}
+.sticky_navbar{
+    z-index: 11;
+    position: sticky;
+    top: 8px;
+    left: 0;
+}
+.right{
+    width: calc(100% - 102px);
+    height: 100%;
+}
+.homeAll{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,84 @@
+.products-all .products-all-top {
+    display: flex;
+    justify-content: end;
+  }
+  .products-all .products-all-top form select {
+    padding: 10px 20px;
+    color: gray;
+  }
+  .products-all .products-all-body {
+    padding-top: 30px;
+    display: flex;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box {
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 30px;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-top {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-top p {
+    padding-bottom: 20px;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-top input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    height: 40px;
+    padding: 0px 20px;
+    color: gray;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-filter {
+    padding-top: 20px;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-filter li {
+    padding: 3px 0px;
+    list-style-type: none;
+  }
+  .products-all .products-all-body .left-choosing .choosing-box .choosing-box-filter li span {
+    padding-left: 3px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 30px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-top {
+    padding: 10px 0px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom .min-price {
+    width: 70px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom .min-price input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom .max-price {
+    width: 70px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom .max-price input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+  }
+  .products-all .products-all-body .left-choosing .filter-sort .filter-price .fp-bottom .price-ready-btn {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0px 5px;
+    background-color: #a8a8a8;
+  }
+  .products-all .products-all-body .right-products {
+    margin-left: 40px;
+  }

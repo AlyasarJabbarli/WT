@@ -1,0 +1,111 @@
+.card{
+    background: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+.card_category{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card_category p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #adadad;
+}
+.card_text h3{
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 8px;
+    color: #000;
+    height: 48px;
+    font-size: 12px;
+}
+.price p{
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8dc63f;
+}
+.price_with_discount{
+    text-align: center;
+    background: #f1f5ff;
+    width: 91px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #9f82f2;
+}
+.btn{
+    border: none;
+    width: 79%;
+    height: 40px;
+    background-color: #8dc63f;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.buy_buttons button:nth-child(2){
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #8dc63f;
+    border-radius: 4px;
+}
+.buy_buttons{
+    margin-top: 15px;
+}
+.prices, .buy_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_img{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.4px solid #dadada;
+    margin-bottom: 10px;
+    position: relative;
+}
+.card_img img{
+    height: 80%;
+    width: 97%;
+    object-fit: contain;
+}
+.card_img a{
+    display: contents;
+}
+.favorite{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : none;
+    background: none;
+    outline: none;
+    position: absolute;
+    top: 0.5vh;
+    right: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+.favorite svg{
+    width: 24px;
+    height: 22px;
+}

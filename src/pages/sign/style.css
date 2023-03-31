@@ -1,0 +1,83 @@
+.log-reg {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .log-reg .log-reg-box {
+    background-color: white;
+    border: 1px solid rgb(218, 218, 218);
+  }
+  .log-reg .log-reg-box .log-reg-top {
+    display: flex;
+  }
+  .log-reg .log-reg-box .log-reg-top .log-top {
+    padding: 10px 70px;
+    border-bottom: 1px solid green;
+  }
+  .log-reg .log-reg-box .log-reg-top .log-top a {
+    color: green;
+    text-decoration: none;
+  }
+  .log-reg .log-reg-box .log-reg-top .reg-top {
+    padding: 10px 30px;
+    border-bottom: 1px solid gray;
+  }
+  .log-reg .log-reg-box .log-reg-top .reg-top a {
+    color: gray;
+    text-decoration: none;
+  }
+  .log-reg .log-reg-box .log-body {
+    padding: 30px 40px;
+  }
+  .log-reg .log-reg-box .log-body div label {
+    font-size: 14px;
+    color: gray;
+  }
+  .log-reg .log-reg-box .log-body div input {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    width: 100%;
+    height: 40px;
+  }
+  .log-reg .log-reg-box .log-body .log-body-in-btn {
+    padding-top: 20px;
+  }
+   .log-body-in-btn button {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 100%;
+  }
+  .log-body-in-btn button .anotherdiv {
+    background-color: #8DC63F;
+    border-radius: 5px;
+    padding: 10px 0px;
+  }
+  .log-reg .log-reg-box .reg-body {
+    padding: 20px;
+  }
+  .log-reg .log-reg-box .reg-body div {
+    padding: 10px 20px;
+  }
+  .log-reg .log-reg-box .reg-body div label {
+    font-size: 14px;
+    color: gray;
+  }
+  .log-reg .log-reg-box .reg-body div input {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    width: 100%;
+    height: 40px;
+  }
+  .gender_all{
+    display: flex;
+  }
+  .gender_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }

@@ -1,0 +1,172 @@
+.basket-home{
+    display: flex;
+    justify-content: space-between;
+}
+.basket-name{
+    margin: 20px 0px;
+
+}
+.basket-body{
+    padding: 20px;
+    height: auto;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.delete-product{
+    border: 1px solid gray;
+    padding: 0px 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+}
+.basket-price a{
+    text-decoration: none;
+    color: white;
+}
+.basket-body a{
+    text-decoration: none;
+}
+.ibl-color{
+    margin-right: 8px;
+}
+.basket-product{
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.basket-product-info{
+    width: 100%;
+    padding-left: 20px;
+    
+}
+.basket-product img{
+    width:200px ;
+    height: 200px;
+    object-fit: contain;
+}
+.basket-price{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    height: fit-content;
+}
+
+.total-price-br{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.total-endirim-br{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.basket-price-bottom1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.basket-price-bottom{
+    background-color: #383E42;
+    padding: 10px;
+    border-radius: 5px;
+    color:white !important; 
+    margin-top: 20px;
+}
+.basket-price-bottom2{
+    border: 1px solid green;
+    background-color: green;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px ;
+    border-radius: 5px;
+}
+.info-name{
+    padding-top: 10px;
+    
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-price{
+    padding-top: 10px;
+    
+    font-size: 18px;
+    font-weight: 600px;
+    color:rgb(38, 171, 76);
+}
+.info-price img{
+    width: 15px;
+    height: 12px;
+}
+
+.info-total{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.it-left{
+    padding: 5px 20px;
+    border: 1px solid purple;
+    color: purple;
+    border-radius: 5px;
+
+}
+.it-right img{
+    width: 15px;
+    height: 12px;
+}
+.it-right p{
+    font-weight: 700;
+}
+.info-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ib-left{
+    display: flex;
+    padding-top: 10px;
+}
+.basket-all-left{
+    width: 67%;
+}
+.ib-left p{
+    padding-right: 25px;
+}
+.card-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+        }
+
+
+span {cursor:pointer; }
+
+.ibr-minus, .ibr-plus{
+    width:50px;
+    height:30px;
+    background:#f2f2f2;
+    border-radius:4px;
+    padding:8px 5px 8px 5px;
+    border:1px solid #ddd;
+}
+.ibr-count{
+    height:40px;
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    border:1px solid #ddd;
+    border-radius:4px;
+}

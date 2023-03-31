@@ -1,0 +1,122 @@
+.purchase_all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.purchase_right{
+    background-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    max-width: 312px;
+    width: 100%;
+
+}
+.purchase_left{
+    width: 67%;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 17px;
+    height: fit-content;
+}
+.purchase_left .anotherdiv button{
+    width: 197px;
+}
+.purchase_left input{
+    background: #fafafa;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin-top: 4px;
+    outline: none;
+    padding: 0 15px;
+}
+.purchase_right{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 4px; 
+}
+.product_All{
+    padding: 16px;
+}
+.product{
+    border: 1px solid #dadada;
+    border-radius: 4px ;
+    padding: 16px;
+}
+.purchase_right .pay{
+    width: 100%;
+    height: 48px;
+    border-radius: 4px 4px 0 0;
+    background: #383e42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+}
+.purchase_right .pay p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.product_top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #adadad;
+    padding-bottom: 8px;
+    margin: 0 0px 16px;;
+}
+.product_top p {
+    color: #adadad;
+    font-size: 14px;
+}
+.product_top p:nth-child(2){
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: black;
+}
+.product_bottom div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.product_bottom div p{
+    font-size: 13px;
+    line-height: 18px;    
+    color: #adadad;
+}
+.product_price{
+    border-top: 1px solid #adadad;
+    justify-content: space-between;
+    display: flex;
+    font-weight: 600;
+    padding: 8px 5px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.product_main{
+    display: flex;
+}
+.product_main_photo{
+    max-width: 97px;
+    height: 97px;
+    margin-right: 14px;
+}
+.product_main_photo img{
+  width: 100%;
+  height: 100%;
+}
+.product_All{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
